@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #171717;
+    color: #f2f2f2;
+  }
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 30px;
+  }
+  .student-form{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    background-color: #171717;
+    color: #f2f2f2;
+    border: 1px solid white;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  #submit-button {
+    display: block;
+    width: 30%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #search-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #171717;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
