@@ -44,8 +44,8 @@ body {
     display: block;
     width: 30%;
     padding: 5px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: whitesmoke;
+    color: #171717;
     border: none;
     cursor: pointer;
   }
